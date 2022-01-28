@@ -1,0 +1,41 @@
+<pre>
+<?php
+$array=array();//пустой массив
+
+var_dump($array);//var_dump выводит содержимое объекта
+
+$std_array=array(1,2,3,4,5,6,7,8,9,10);
+
+var_dump($std_array);//массив с значениями где ключ-число заданное автоматически
+
+$different_key_array=array(//массив с различными ключами для данных
+	'name'=>'Zhamkazz',
+	'age'=>'103',
+	'id'=>100
+);
+
+var_dump($different_key_array);
+
+$multidimensional_array=[//реализация многомерного массива в php довольно простая по принципу вложенных массивов
+	'names'=>[
+		'Zhamkazz',
+		'Xlolka',
+		'Future_boi',
+		'FJDSad_lol',
+	],
+	'logins'=>[
+		'zha101',
+		'xlo',
+		'Future105',
+	],
+	'passwords'=>[
+		'Qwerty1',
+		'Yhert',
+		'UFsd32',
+	],
+];
+var_dump($multidimensional_array);
+
+var_dump($multidimensional_array['names']);//обращение к массиву names в массиве multidimensional
+?>
+</pre>
